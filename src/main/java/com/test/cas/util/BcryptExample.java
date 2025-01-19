@@ -1,4 +1,4 @@
-package com.test.util;
+package com.test.cas.util;
 
 import org.mindrot.jbcrypt.BCrypt;
 

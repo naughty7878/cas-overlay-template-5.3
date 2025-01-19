@@ -125,6 +125,18 @@
                 <!--
                 ...Additional dependencies may be placed here...
                 -->
+                <!-- Auth -->
+                <dependency>
+                    <groupId>org.apereo.cas</groupId>
+                    <artifactId>cas-server-core-authentication</artifactId>
+                    <version>${cas.version}</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.apereo.cas</groupId>
+                    <artifactId>cas-server-core-authentication-api</artifactId>
+                    <version>${cas.version}</version>
+                </dependency>
+
                 <!-- JDBC -->
                 <dependency>
                     <groupId>org.apereo.cas</groupId>
@@ -148,6 +160,7 @@
                     <artifactId>jbcrypt</artifactId>
                     <version>0.4</version>
                 </dependency>
+
                 <!-- lombok -->
                 <dependency>
                     <groupId>org.projectlombok</groupId>
