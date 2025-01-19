@@ -161,6 +161,13 @@
                     <version>0.4</version>
                 </dependency>
 
+                <!-- REST -->
+                <dependency>
+                    <groupId>org.apereo.cas</groupId>
+                    <artifactId>cas-server-support-rest</artifactId>
+                    <version>${cas.version}</version>
+                </dependency>
+
                 <!-- lombok -->
                 <dependency>
                     <groupId>org.projectlombok</groupId>
