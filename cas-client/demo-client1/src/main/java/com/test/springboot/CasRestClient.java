@@ -25,7 +25,7 @@ public class CasRestClient {
 
     public static void main(String[] args) throws IOException, KeyStoreException, NoSuchAlgorithmException, KeyManagementException {
         // 1. 获取 TGT
-        String tgt = getTgt("admin", "password");
+        String tgt = getTgt("test", "123456");
         System.out.println("TGT: " + tgt);
 
         // 2. 获取 ST
