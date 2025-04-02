@@ -11,11 +11,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author: wangsaichao
- * @date: 2018/7/21
- * @description: 注册验证器
- */
+
 @Configuration("myAuthenticationConfiguration")
 public class MyAuthenticationConfiguration implements AuthenticationEventExecutionPlanConfigurer {
 
